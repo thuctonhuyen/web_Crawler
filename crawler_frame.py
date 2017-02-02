@@ -28,10 +28,10 @@ class CrawlerFrame(IApplication):
     def __init__(self, frame):
         self.starttime = time()
         # Set app_id <student_id1>_<student_id2>...
-        self.app_id = "39871910_88643407_64655246"
+        self.app_id = "39871910_70005241_25343282"
         # Set user agent string to IR W17 UnderGrad <student_id1>, <student_id2> ...
         # If Graduate studetn, change the UnderGrad part to Grad.
-        self.UserAgentString = 'IR W17 UnderGrad 39871910 88643407 64655246'
+        self.UserAgentString = 'IR W17 UnderGrad 39871910 7005241 25343282'
 		
         self.frame = frame
         assert(self.UserAgentString != None)
